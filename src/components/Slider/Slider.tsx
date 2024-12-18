@@ -10,21 +10,21 @@ import Slider from "react-slick";
 
 
 const ImageSlider = () => {
-    const settings = {
-      dots: true,
-      infinite: true,
-      speed: 500, 
-      slidesToShow: 2,
-      slidesToScroll: 2, 
-      autoplay: true, 
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 500, 
+    slidesToShow: 2,
+    slidesToScroll: 2, 
+    autoplay: true, 
     autoplaySpeed: 3000, 
     appendDots: (dots: React.ReactNode) => (
       <div>
-        <ul className={styles["slick-dots"]}> {dots} </ul>
+        <ul className={styles["slick-dots"]}>{dots}</ul>
       </div>
     )
-   
-    };
+  };
+  
   
     return (
       <Slider {...settings}  className="mt-10  " >
