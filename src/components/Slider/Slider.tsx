@@ -18,7 +18,7 @@ const ImageSlider = () => {
       slidesToScroll: 2, 
       autoplay: true, 
     autoplaySpeed: 3000, 
-     appendDots: (dots:any) => (
+    appendDots: (dots: React.ReactNode) => (
       <div>
         <ul className={styles["slick-dots"]}> {dots} </ul>
       </div>
