@@ -4,7 +4,6 @@ import Link from 'next/link'
 
 import Image from 'next/image'
 
-import facebook from "../../../public/Facebook.png"
 
 const Apply = () => {
   return (
@@ -18,7 +17,7 @@ const Apply = () => {
 
         <p className=' text-center text-4xl'>media platforms.</p>
     
-        <Image src={facebook} alt='image' width={100} height={100} className='mt-10 ml-72 w-16 h-10'/> 
+        <Image src={'/facebook.png'} alt='image' width={100} height={100} className='mt-10 ml-72 w-16 h-10'/> 
     
         <button className='mt-16 ml-56  font-bold box-border px-14 py-3 bg-[#6895b5] text-white text-lg'>CONTINUE</button>
     
