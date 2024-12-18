@@ -1,0 +1,30 @@
+
+.slick-dots {
+    display: flex;
+    justify-content: center;
+    gap: 90px; 
+    margin-top:20px;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .slick-dots li {
+    margin: 0;
+  }
+  
+  .slick-dots li button:before {
+    content: "";
+    display: block;
+    width: 90px;
+    height: 4px; 
+    background-color: rgb(0, 0, 0);
+    border-radius: 4px; 
+    transition: background-color 0.3s ease;
+    margin-top: 30px;
+  }
+  
+  .slick-dots li.slick-active button:before {
+    background-color: rgb(0, 0, 0); 
+    width: 50px; 
+  }
+  
